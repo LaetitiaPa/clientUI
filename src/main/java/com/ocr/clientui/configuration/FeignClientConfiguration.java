@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
 public class FeignClientConfiguration {
     @Bean
     public BasicAuthRequestInterceptor basicAuthRequestInterceptor() {
-        return new BasicAuthRequestInterceptor("admin", "wJzfrnvG86JxLtShX/AI+iNQEjoj211X");
+        return new BasicAuthRequestInterceptor("admin", "admin");
     }
 }
